@@ -1,23 +1,3 @@
-<div align="center">
-  
-  # Name		
-  
-  <img src="https://api.dicebear.com/9.x/icons/svg?seed=Midnight&backgroundColor[]&icon=lightbulb" height="100" alt="avatar" />
-  
-  
-  [Overview](#📋-overview) •
-  [Quick Start](#🚀-quick-start) •
-  [Installation](#💻-installation) •
-  [Configuration](#⚙️-configuration) •
-  [Usage](#📘-usage) •
-  [Parameters](#📊-parameters) •
-  [Integration](#🔗-integration) •
-  [Troubleshooting](#🔍-troubleshooting)
-  
-  </div>
-  
-  ---
-  
   ## 📋 Overview
   
   Provide a concise description and the primary use case. Highlight key features and benefits.
