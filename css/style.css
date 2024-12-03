@@ -52,7 +52,7 @@ h1{
 
 #flex-container{
     display: flex;
-    margin-top: 20px;   
+    margin-top: 20px;
 }
 
 /*=====  End of flex container  ======*/
@@ -175,14 +175,26 @@ span{
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 20px;    
 }
-
+#qoute-flex{
+    display: flex;    
+}
 #google-font4{
     font-family: "Petit Formal Script", cursive;
     font-weight: 400;
     font-style: normal;
     line-height: 30px;
+    width: 900px;
+    margin-left: 20px;
+}
+.user-image{
+    width: 100px;
+}
+
+.user-image > img{
+    width: 65px;
+    margin-left: 12px;
 }
 
 #signature{
@@ -215,12 +227,111 @@ span{
     text-align: center;  
     background-color: aliceblue; 
 }
+.sub-title{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0px auto 10px;
+    border: 1px solid black;
+    width: 400px;
+    background-color: rgb(250, 245, 224);
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sub-title > p{
+    font-family: "Petit Formal Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 #alphbet-flex{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* width: 1100px; */
+    height: auto;    
+}
+.shadow{
+    margin: 20px 0px 0px 15px;
+    box-shadow: 8px 8px 5px 5px black;
 }
 .alphabet-box{
+    border: 1px solid black;
+    border-radius: 5px 0px 5px 0px ;
+    background-color: rgb(255, 255, 255);
+    
+    width: 70px;    
+    /* margin-top: 10px; */
+    box-shadow: 6px 6px 0px 1px rgb(205, 204, 204);    
+}
 
+.alphabet-box > p{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Petit Formal Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 3px black;
+}
+
+#sub-title-para{
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "ROND" 0;
+}
+
+#alphabet-flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* width: 1100px; */
+    height: auto;    
+}
+
+#alphabet-flex2 p{
+    font-size: 3rem;
+    text-align: center;    
+    text-shadow: 1px 1px 3px black;
+
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "ROND" 0;
+}
+
+#sub-title-para3{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#alphabet-flex3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* width: 1100px; */
+    height: auto;    
+}
+
+#alphabet-flex3 p{
+    font-size: 3rem;
+    text-align: center;    
+    text-shadow: 1px 1px 3px black;
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 /*=====  End of Alphabetical order  ======*/
