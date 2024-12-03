@@ -1,6 +1,5 @@
 /* Font cnd link from font.google.com */
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Indie+Flower&family=Mr+De+Haviland&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Indie+Flower&family=Mr+De+Haviland&family=Petit+Formal+Script&family=Shadows+Into+Light&display=swap');
 
 *{
     margin: 0;
@@ -176,12 +175,54 @@ span{
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     margin-top: 30px;
+    margin-left: 20px;
 }
 
 #google-font4{
-    font-family: "Dancing Script", cursive
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+}
+
+#signature{
+    font-size: 18px;
+    text-align: right;
+    font-family: "Shadows Into Light", serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 /*=====  End of Float Container  ======*/
+
+
+/*=============================================
+=            Alphabetical order            =
+=============================================*/
+
+#alphbet-container{
+
+
+}
+.alpabet-title{
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius:10px 0px 10px 0px ;
+    padding: 5px;
+    box-shadow: 1px 1px 3px grey;
+    margin: 20px 0px 20px 20px;
+    text-decoration: double;
+    text-align: center;  
+    background-color: aliceblue; 
+}
+
+#alphbet-flex{
+    display: flex;
+}
+.alphabet-box{
+
+}
+
+/*=====  End of Alphabetical order  ======*/
 
 
