@@ -1,3 +1,7 @@
+/* Font cnd link from font.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Indie+Flower&family=Mr+De+Haviland&family=Shadows+Into+Light&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,13 +17,25 @@ body{
     background: rgb(218, 217, 217);
     padding: 50px 0px 50px 0px;
 }
+
+/*=============================================
+=            Set main container            =
+=============================================*/
+
 #main-container{
     background-color: rgb(250, 250, 240);
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0px auto 0px;    
     padding: 40px;
     box-shadow: 1px 1px 2px grey;
+   
 }
+
+/*=====  End of Set main container  ======*/
+
+
+/*----------  Main title  ----------*/
+
 
 h1{
     color: darkolivegreen;
@@ -30,22 +46,57 @@ h1{
     text-transform: uppercase;    
 }
 
-#local-font{
-    border: 1px solid black;
-    /* background: lights kyblue; */
-    background-color: rgb(236, 235, 235);
-    padding: 8px;
-    width: 300px;
-    float: left;
-    /* margin: 20px auto 0px;     */
-    box-shadow: 1px 1px 3px skyblue;
+
+/*=============================================
+=            flex container            =
+=============================================*/
+
+#flex-container{
+    display: flex;
+    margin-top: 20px;   
 }
-#local-font p{
+
+/*=====  End of flex container  ======*/
+
+
+/*=============================================
+=            article sub title            =
+=============================================*/
+
+
+
+.article-title{
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius:10px 0px 10px 0px ;
+    padding: 5px;
+    box-shadow: 1px 1px 3px grey;
+    margin-bottom: 5px;
+    text-decoration: double;
+    text-align: center;  
+    background-color: aliceblue;  
+}
+
+/*=====  End of article sub title  ======*/
+
+
+
+/*=============================================
+=            Local font article            =
+=============================================*/
+
+#local-font{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     font-weight: 300;
-    background: inherit;
+    background: inherit;    
 }
+
+/*=====  End of Local font article  ======*/
+
+
+
+
 strong{ 
     background: inherit;
 }
@@ -67,19 +118,70 @@ span{
 }
 
 
-#google-font{
+.article-container{
     border: 1px solid black;
     /* background: lights kyblue; */
     background-color: rgb(236, 235, 235);
     padding: 8px;
-    width: 300px;
-    float: right;
+    width: 270px;
+    /* display: flex; */
     /* margin: 20px auto 0px;     */
+    margin-left: 20px;
     box-shadow: 1px 1px 3px skyblue;
 }
-#google-font p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+/*=============================================
+=            google font article            =
+=============================================*/
+
+
+
+#google-font{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
     text-align: justify;
-    font-weight: 300;
     background: inherit;
 }
+
+#google-font2{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    background: inherit;
+}
+
+#google-font3{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    background: inherit;
+}
+
+
+/*=====  End of google font article            =======*/
+
+
+/*=============================================
+=            Float Container            =
+=============================================*/
+
+#float-container{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+#google-font4{
+    font-family: "Dancing Script", cursive
+}
+
+/*=====  End of Float Container  ======*/
+
+
